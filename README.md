@@ -2,7 +2,7 @@
 
 Apprentx's eslint config
 
-## Installation
+## Getting started
 
 Install the [npm package](https://www.npmjs.com/package/@apprentx/eslint-config):
 
