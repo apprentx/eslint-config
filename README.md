@@ -1,6 +1,6 @@
-# @apprentx/eslint-config ![npm](https://img.shields.io/npm/v/@apprentx/eslint-config)
+![Apprentx logo](./assets/apprentx.png?raw=true)
 
-Apprentx's eslint config
+# @apprentx/eslint-config  ![npm](https://img.shields.io/npm/v/@apprentx/eslint-config)
 
 ## Getting started
 
