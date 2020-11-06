@@ -1,6 +1,6 @@
 {
   "name": "@apprentx/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Apprentx's eslint config",
   "main": "index.js",
   "repository": {
