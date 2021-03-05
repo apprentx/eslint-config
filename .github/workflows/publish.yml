@@ -1,11 +1,11 @@
-name: publish
+name: Publish package
 
 on:
   push:
     branches: [main]
 
 jobs:
-  install-and-publish:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
