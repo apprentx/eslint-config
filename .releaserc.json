@@ -1,0 +1,51 @@
+{
+  "branches": ["main"],
+  "preset": "conventionalcommits",
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "releaseRules": [
+          {
+            "type": "config",
+            "release": "minor"
+          },
+          {
+            "type": "docs",
+            "release": "patch"
+          },
+          {
+            "type": "chore",
+            "release": "patch"
+          }
+        ]
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "presetConfig": {
+          "types": [
+            {
+              "type": "config",
+              "section": "ESLint config",
+              "hidden": false
+            },
+            {
+              "type": "docs",
+              "section": "Documentation",
+              "hidden": false
+            },
+            {
+              "type": "chore",
+              "section": "Chores",
+              "hidden": false
+            }
+          ]
+        }
+      }
+    ],
+    "@semantic-release/npm",
+    "@semantic-release/github"
+  ]
+}
