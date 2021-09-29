@@ -10,6 +10,7 @@ module.exports = {
     es6: true,
   },
   rules: {
+    "no-throw-literal": "error",
     "no-return-await": "error",
     "no-use-before-define": "off", // uses "@typescript-eslint/no-use-before-define" instead
     "max-params": ["error", 4],
