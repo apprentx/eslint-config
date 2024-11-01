@@ -15,7 +15,6 @@ module.exports = {
     "no-use-before-define": "off", // uses "@typescript-eslint/no-use-before-define" instead
     "max-params": ["error", 4],
     yoda: ["error", "never"],
-    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/ban-ts-comment": [
       "error",
       {
@@ -25,6 +24,7 @@ module.exports = {
         "ts-nocheck": true,
       },
     ],
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unused-vars": ["warn", { ignoreRestSiblings: true }],
   },
 };
